@@ -9,7 +9,7 @@ body {
 
 /* NavBar */
 nav {
-    background-color: #144bff;
+    background-color: #5e36ec;
     width: 100%;
     display: flex;
     justify-content: space-between; 
@@ -28,7 +28,7 @@ nav ul li {
     padding: 8px;
     display: block;
     justify-content: left;
-    font-size: 1.6rem;
+    font-size: 0.8rem;
 }
 
 nav ul li:hover {
@@ -49,7 +49,10 @@ header {
     left: 0;
     z-index: 1000;
 }
+.lato-thin {
+    font-size: 20;
 
+}
 header ul {
     list-style: none;
     display: flex;
