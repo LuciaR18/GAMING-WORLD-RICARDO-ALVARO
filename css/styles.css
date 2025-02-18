@@ -9,7 +9,7 @@ body {
 
 /* NavBar */
 nav {
-    background-color: #144bff;
+    background-color: #933bdb;
     width: 100%;
     display: flex;
     justify-content: space-between; 
@@ -28,12 +28,25 @@ nav ul li {
     padding: 8px;
     display: block;
     justify-content: left;
-    font-size: 1.6rem;
+    font-size: 0.8rem;
+    color: aliceblue;
 }
 
 nav ul li:hover {
     background-color: #123abd;
     cursor: pointer;
+}
+
+.batman {
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+
+}
+
+.tamañobatman {
+    margin-top: 40;
+
 }
 
 /* Header */
@@ -54,7 +67,7 @@ header ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+   
     margin: 0;
     padding: 0;
 }
