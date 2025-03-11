@@ -9,13 +9,13 @@ body {
 
 /* NavBar */
 nav {
-    background-color: #5e36ec;
+    background-color: #b71dd2;
     width: 100%;
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    padding: 1rem 0;
-    box-sizing: border-box;
+   
+   
 }
 
 nav ul {
@@ -25,7 +25,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    padding: 8px;
+   
     display: block;
     justify-content: left;
     font-size: 0.8rem;
@@ -57,22 +57,21 @@ header ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    margin: 0;
-    padding: 0;
+
+  
 }
 
 header ul li a {
     color: white;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-    font-weight: 200;
+    font-weight: 100;
 }
 
-/* Hero Section */
+/* Hero Section
 .hero-banner{
-    margin-top: 40px;
-}
+  
+} */
 .articlestitle{
     display: flex;
     justify-content: center;
@@ -135,10 +134,10 @@ h3 {
 .hero-banner img {
     width: 100%; 
     height: auto; 
-    object-fit: cover; 
+    
     display: block; 
-    margin: 0 auto;
-    max-height: 100vh;
+    
+    
 }
 
 .hero-text {
@@ -366,19 +365,19 @@ button:hover {
 
 /* Tamaños pequeños (móviles verticales, menos de 600px) */
 @media (max-width: 600px) {
-    nav ul {
+    /* nav ul {
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
-    }
+    } */
 
     .hero-text h1 {
         font-size: 3rem;
     }
 
-    .hero-banner{
+    /* .hero-banner{
         margin-top: 200px;
-    }
+    } */
 
     .arcanephoto, .spacephoto {
         max-width: 80%;
